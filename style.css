@@ -1,0 +1,53 @@
+*{
+    color: black;
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 1px solid black;
+}
+.navbar-brand{
+    padding-top:0px;
+    margin-top: 0;
+}
+.navbar-brand h1{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list li a{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-toggle{
+    background-color: black;
+}
+.last{
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+.heading h2{
+    margin-top: 0;
+    padding: 0;
+}
+.title{
+    font-weight: bolder;
+}
+.text{
+    margin-top: 30px;
+    background-color: gray;
+    text-align: justify;
+}
+@media (max-width:767px){
+    .navbar-header{
+        border: 1px solid black;
+    }    
+}
